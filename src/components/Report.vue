@@ -433,7 +433,7 @@ references: "<b>code 1 (line 140):</b>'default = %s' % fmt_value(field.default_v
         this.answers[i]['references'] = this.$refs['reportTuples_'+(i+1)][0].references
       }
       console.log(this.answers)
-      this.finalStoredData['answers_'+(this.questionIndex+1)] = {'answers':this.answers, 'min':9-this.minutes,
+      this.finalStoredData['answers_'+(this.questionIndex+1)] = {'answers':this.answers, 'min':4-this.minutes,
         'sec':60-this.seconds}
 
       if (this.questionIndex < 23) {
